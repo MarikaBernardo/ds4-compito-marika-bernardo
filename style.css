@@ -1,0 +1,113 @@
+.containernavbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.img{
+    width: 244px;
+}
+
+.getstarted{
+    background-color: green;
+    border: 1px green;
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+}
+
+.linea{
+    border: solid 2px black;
+}
+
+.container {
+    display: flex;
+}
+
+.container_3riga_divsinistra {
+    display: flex;
+    align-items: center;
+}
+
+.bookmark-img {
+    margin-left: auto;
+}
+
+.sinistra {
+    flex: 1;
+    padding: 20px;
+    gap: 2;
+}
+
+.img1elon{
+    width: 20px;
+}
+
+.centro {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2;
+    width: 278px;
+}
+
+.destra {
+    flex: 1;
+    padding: 20px;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin-top: 10px;
+    border: 1px white;
+    padding: 15px;
+    border-radius: 100px;
+    gap: 1;
+}
+
+.container2 {
+    display: flex;
+}
+
+.sinistra2 {
+    flex: 1;
+    padding: 20px;
+    gap: 2;
+}
+
+.centro2 {
+    flex: 1;
+    padding: 20px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2;
+    width: 278px;
+}
+
+.destra2 {
+    flex: 1;
+    padding: 20px;    
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+}
+
+.see{
+    color: green;
+}
+
+.br2{
+    border: 0.5px solid green;
+}
+
